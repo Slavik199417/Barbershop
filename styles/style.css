@@ -1,0 +1,98 @@
+body {
+	margin: 0px;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.header {
+    background: black;  
+    height: 72px;
+     /*border: 2px solid white;*/
+
+}
+
+.nav-wrapper {
+    width: 1090px;
+    height: 33px;
+    margin: 0 auto;
+    padding-top: 25px; 
+
+}
+
+.nav-menu {
+    height: 33px; 
+    font-size: 16px;
+    margin: 0;
+    list-style: none;
+
+}
+
+.nav-menu li {
+	padding: 10px;
+	display: inline;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.lastli {
+	margin-left: 373px;
+}
+
+.logo {
+	width: 375px;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 65px;
+}
+
+.advantages {
+	width: 1070px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 33px;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	display: flex;
+}
+
+.fast {
+	height: 200px;
+	width: 340px;
+	font-size: 14px;
+	
+}
+
+.cool {
+	height: 200px;
+	width: 340px;
+	font-size: 14px;
+	margin-left: 15px;
+	
+}
+
+.rich {
+	height: 200px;
+	width: 347px;
+	font-size: 14px;
+	margin-left: 15px;
+}
+
+.top {
+	height: 40px;
+	font-size: 30px;
+	 
+}
+
+.down {
+
+	height: 100px;
+
+}
+
+.romb {
+    margin-bottom: 23px;
+}
+
+
+
