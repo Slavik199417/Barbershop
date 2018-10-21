@@ -2,38 +2,81 @@ body {
 	margin: 0px;
 	background-position: top;
 	background-repeat: no-repeat;
+	/*background: url(../images/background.png);*/ 
 }
 
 .header {
     background: black;  
     height: 72px;
-     /*border: 2px solid white;*/
-}
-
-.nav-wrapper {
-    width: 1090px;
-    height: 33px;
-    margin: 0 auto;
-    padding-top: 25px; 
-}
-
-.nav-menu {
-    height: 33px; 
+    width: 100%;
     font-size: 16px;
-    margin: 0;
-    list-style: none;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
 }
 
-.nav-menu li {
-	padding: 10px;
-	display: inline;
+.nav-info:hover, 
+.nav-news:hover,
+.nav-price:hover,
+.nav-store:hover,
+.nav-contacts:hover,
+.nav-enter:hover {
+	background-color: white;
+}
+
+
+.nav-info:hover a, 
+.nav-news:hover a,
+.nav-price:hover a,
+.nav-store:hover a,
+.nav-contacts:hover a,
+.nav-enter:hover a {
+	color: black;
+}
+
+.nav-info {
+	
+	padding: 15px ;
+	padding-top: 27px;
+    margin-left: 250px;
+}
+
+.nav-news {
+    
+	padding: 15px;
+	padding-top: 27px;
+}
+
+.nav-price {
+    
+	padding: 15px;
+	padding-top: 27px;
+}
+
+.nav-store {
+    
+	padding: 15px;
+	padding-top: 27px;
+}
+
+.nav-contacts {
+    
+	padding: 15px;
+	padding-top: 27px;
+}
+
+.nav-enter {
+	
+	padding: 15px;
+	padding-top: 27px;
+	margin-left: 350px;
+}
+
+.header a:link, a:visited {
+	text-decoration: none;
 	color: white;
-	font-family: 'PT Sans', sans-serif;
 }
 
-.lastli {
-	margin-left: 373px;
-}
+
 
 .logo {
 	width: 375px;
